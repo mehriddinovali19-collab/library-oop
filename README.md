@@ -48,6 +48,7 @@ Session — joriy login qilingan userni saqlaydi (singleton)
 CLI — menyu va user input boshqaruvi
 
 6. Fayl strukturasi
+   
 library_cli/
 ├── main.py                 # entry point
 ├── config.py               # konstantalar (fayl yo'llari, limitlar)
@@ -88,7 +89,8 @@ library_cli/
 │   └── validators.py       # input validatsiya
 │
 └── exceptions.py           # custom xatoliklar (AuthError, BookNotFoundError, ...)
-7. CLI oqimi
+
+8. CLI oqimi
 
 [Guest menu]  -> Register / Login / Exit
 [User menu]   -> Search / Borrow / Return / My Books / Logout
