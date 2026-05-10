@@ -35,6 +35,8 @@ id, title, author, genre, total_copies, available_copies
 Borrow
 
 id, user_id, book_id, borrowed_at, returned_at (None bo'lishi mumkin)
+
+
 5. Klasslar arxitekturasi
 BaseRepository — abstract: load(), save(), find_by_id()
 UserRepository(BaseRepository) — user CRUD
@@ -44,6 +46,7 @@ AuthService — register / login / logout / hash_password
 LibraryService — search / borrow / return / my_books
 Session — joriy login qilingan userni saqlaydi (singleton)
 CLI — menyu va user input boshqaruvi
+
 6. Fayl strukturasi
 library_cli/
 ├── main.py                 # entry point
@@ -86,9 +89,11 @@ library_cli/
 │
 └── exceptions.py           # custom xatoliklar (AuthError, BookNotFoundError, ...)
 7. CLI oqimi
+
 [Guest menu]  -> Register / Login / Exit
 [User menu]   -> Search / Borrow / Return / My Books / Logout
 8. Xatoliklarni boshqarish
+
 Custom exception'lar: AuthError, UserExistsError, BookNotFoundError, BookUnavailableError, BorrowLimitError. Har biri CLI darajasida tutilib, foydalanuvchiga aniq xabar chiqariladi.
 
 9. Qabul kriteriyalari
