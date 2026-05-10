@@ -1,0 +1,162 @@
+[
+  {
+    "id": "b001",
+    "title": "O'tkan kunlar",
+    "author": "Abdulla Qodiriy",
+    "genre": "Roman",
+    "total_copies": 5,
+    "available_copies": 5
+  },
+  {
+    "id": "b002",
+    "title": "Mehrobdan chayon",
+    "author": "Abdulla Qodiriy",
+    "genre": "Roman",
+    "total_copies": 4,
+    "available_copies": 4
+  },
+  {
+    "id": "b003",
+    "title": "Sariq devni minib",
+    "author": "Xudoyberdi To'xtaboyev",
+    "genre": "Bolalar adabiyoti",
+    "total_copies": 6,
+    "available_copies": 6
+  },
+  {
+    "id": "b004",
+    "title": "Yulduzli tunlar",
+    "author": "Pirimqul Qodirov",
+    "genre": "Tarixiy roman",
+    "total_copies": 3,
+    "available_copies": 3
+  },
+  {
+    "id": "b005",
+    "title": "Shaytanat",
+    "author": "Tohir Malik",
+    "genre": "Detektiv",
+    "total_copies": 5,
+    "available_copies": 5
+  },
+  {
+    "id": "b006",
+    "title": "Kecha va kunduz",
+    "author": "Cho'lpon",
+    "genre": "Roman",
+    "total_copies": 4,
+    "available_copies": 4
+  },
+  {
+    "id": "b007",
+    "title": "Ufq",
+    "author": "Said Ahmad",
+    "genre": "Roman",
+    "total_copies": 3,
+    "available_copies": 3
+  },
+  {
+    "id": "b008",
+    "title": "Jinoyat va Jazo",
+    "author": "Fyodor Dostoyevskiy",
+    "genre": "Klassika",
+    "total_copies": 4,
+    "available_copies": 4
+  },
+  {
+    "id": "b009",
+    "title": "Urush va Tinchlik",
+    "author": "Lev Tolstoy",
+    "genre": "Klassika",
+    "total_copies": 2,
+    "available_copies": 2
+  },
+  {
+    "id": "b010",
+    "title": "Anna Karenina",
+    "author": "Lev Tolstoy",
+    "genre": "Klassika",
+    "total_copies": 3,
+    "available_copies": 3
+  },
+  {
+    "id": "b011",
+    "title": "1984",
+    "author": "George Orwell",
+    "genre": "Distopiya",
+    "total_copies": 5,
+    "available_copies": 5
+  },
+  {
+    "id": "b012",
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "genre": "Satira",
+    "total_copies": 4,
+    "available_copies": 4
+  },
+  {
+    "id": "b013",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "genre": "Klassika",
+    "total_copies": 3,
+    "available_copies": 3
+  },
+  {
+    "id": "b014",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "genre": "Roman",
+    "total_copies": 4,
+    "available_copies": 4
+  },
+  {
+    "id": "b015",
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Dasturlash",
+    "total_copies": 6,
+    "available_copies": 6
+  },
+  {
+    "id": "b016",
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt",
+    "genre": "Dasturlash",
+    "total_copies": 4,
+    "available_copies": 4
+  },
+  {
+    "id": "b017",
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho",
+    "genre": "Dasturlash",
+    "total_copies": 5,
+    "available_copies": 5
+  },
+  {
+    "id": "b018",
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": "Tarix",
+    "total_copies": 4,
+    "available_copies": 4
+  },
+  {
+    "id": "b019",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self-help",
+    "total_copies": 6,
+    "available_copies": 6
+  },
+  {
+    "id": "b020",
+    "title": "Boburnoma",
+    "author": "Zahiriddin Muhammad Bobur",
+    "genre": "Tarixiy",
+    "total_copies": 3,
+    "available_copies": 3
+  }
+]
