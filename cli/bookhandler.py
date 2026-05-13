@@ -27,9 +27,9 @@ class Bookhandlers:
         BorrowRepository.return_borrow(user.id, book_id)
         print('Kitob muvaffaqiyatli qaytarildi!')
 
-    #def my_books(self, user):
-     #   username = input("username: ")
-       # BorrowRepository.my_all_books(user.username)
+    def my_books(self, user):
+        username = input("username: ")
+        BorrowRepository.my_all_books(user.username)
         
 
 

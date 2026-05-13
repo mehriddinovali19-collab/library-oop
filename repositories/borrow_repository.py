@@ -32,10 +32,10 @@ class BorrowRepository:
         BorrowRepository.save_file(borrows)
 
     @staticmethod
-    def my_all_books(username):
+    def my_all_books(book_id):
         my_books = BorrowRepository.read_file()
         for book in my_books:
-            if book['username'] == username:
+            if book['id'] == book_id:
                 print(f"Id of the book: {book['id'], book['title']}")
-                
+
 

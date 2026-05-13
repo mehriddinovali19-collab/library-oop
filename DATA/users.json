@@ -16,5 +16,23 @@
         "username": "vali",
         "hash_password": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
         "Full name": "Vali Aliyev"
+    },
+    {
+        "id": "b86b3f17-4eca-11f1-99a1-282e89caae6f",
+        "username": "zarif",
+        "hash_password": "ef797c8118f02dfb649607dd5d3f8c7623048c9c063d532cc95c5ed7a898a64f",
+        "Full name": "Zarif Valiyev"
+    },
+    {
+        "id": "347b0eca-4ecc-11f1-a44b-282e89caae6f",
+        "username": "ilyos",
+        "hash_password": "4e6979372fe9f33255d774e1510b488f920cbd452daa7053eb05b7f126a9a80e",
+        "Full name": "Ilyos Nematulayiv"
+    },
+    {
+        "id": "c847aa57-4ecd-11f1-bd8e-282e89caae6f",
+        "username": "zarif",
+        "hash_password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
+        "Full name": "Zarif Abduraxmonov"
     }
 ]
