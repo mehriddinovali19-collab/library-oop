@@ -28,8 +28,6 @@ class Library:
                    self.book_handler.borrow_books(self.auth_handler.current_user)
                elif option == "4":
                    self.book_handler.return_book(self.auth_handler.current_user)
-               elif option == "5":
-                   self.book_handler.my_books(self.auth_handler.current_user)
                else:
                    print("Bunday option topilmadi!")
            else:

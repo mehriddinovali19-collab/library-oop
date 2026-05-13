@@ -2,6 +2,7 @@ from repositories.book_repository import BookRepository
 from repositories.borrow_repository import BorrowRepository
 
 
+
 class Bookhandlers:
     def show_all_books(self):
         books = BookRepository.get_all_book()
@@ -27,10 +28,10 @@ class Bookhandlers:
         BorrowRepository.return_borrow(user.id, book_id)
         print('Kitob muvaffaqiyatli qaytarildi!')
 
-    def my_books(self, user):
-        username = input("username: ")
-        BorrowRepository.my_all_books(user.username)
-        
+
+
+
+    
 
 
 

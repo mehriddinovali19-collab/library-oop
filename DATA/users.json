@@ -34,5 +34,11 @@
         "username": "zarif",
         "hash_password": "15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225",
         "Full name": "Zarif Abduraxmonov"
+    },
+    {
+        "id": "b52083fa-4ed5-11f1-928f-282e89caae6f",
+        "username": "xilola",
+        "hash_password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "Full name": "Xilola Aybekiva"
     }
 ]
