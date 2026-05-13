@@ -1,0 +1,20 @@
+[
+    {
+        "id": "8770574d-4e96-11f1-a494-282e89caae6f",
+        "username": "ali",
+        "hash_password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+        "Full name": "Ali Mexridinov"
+    },
+    {
+        "id": "ab38a333-4e96-11f1-b8ee-282e89caae6f",
+        "username": "jamshid",
+        "hash_password": "e11d8cb94b54e0a2fd0e780f93dd51837fd39bf0c9b86f21e760d02a8550ddf7",
+        "Full name": "Jamshid Valiyev"
+    },
+    {
+        "id": "374a4eb9-4e9d-11f1-a45d-282e89caae6f",
+        "username": "vali",
+        "hash_password": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
+        "Full name": "Vali Aliyev"
+    }
+]

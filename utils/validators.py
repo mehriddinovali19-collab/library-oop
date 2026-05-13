@@ -1,6 +1,6 @@
 from string import digits
 
-def validate_user(username: str) -> tuple[bool, str]:
+def validate_username(username: str) -> tuple[bool, str]:
     if " " in username:
         return False, "Username bosh joylardan iborat bo'lmasligi kerak."
     elif not username.isalpha():

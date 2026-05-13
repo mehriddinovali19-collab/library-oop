@@ -1,6 +1,9 @@
 from getpass import getpass
+from sys import exit
 
-from utils.validators import validate_user, validate_password, nomalize_full_name
+
+from utils.validators import nomalize_full_name
+from services.user_service import UserService
 
 class AuthHandler:
 
@@ -15,34 +18,26 @@ class AuthHandler:
         password = getpass("Password: ").strip()
         confirm = getpass("Confirm: ").strip()
         full_name = nomalize_full_name(input("Full Name: ").strip())
+        
+        
+        self.current_user = UserService.register(username, password, confirm, full_name)
 
-        is_valid, error = validate_user(username)
-        if not is_valid:
-            print(error)
-            return 
-        
 
-        is_valid, error = validate_password(password)
-        if not is_valid:
-            print(error)
-            return 
-        
-        is_valid, error = validate_password(confirm)
-        if not is_valid:
-            print(error)
-            return 
-        
-        if password != confirm:
-            print("Password bir xil emas.")
-            return 
     def login(self):
           print("Tizimdan kirish uchun formani to'ldiring!")
 
           username = input("Username: ").strip()
           password = getpass("Password: ").strip()
 
+          self.current_user = UserService.get_user(username, password)
+          if self.current_user:
+              print("Siz muvaffaqiyatli kirdingiz.")
+
+          
+
     def logout(self):
         self.current_user = None
+        exit()
         print("Siz muvaffaqiyiatli tizimdan chiqdingiz.")
 
 

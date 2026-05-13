@@ -9,4 +9,6 @@ class Menu:
         print("2. All Books")
         print("3. Borrow Book")
         print("4. Return Book")
-        print("0. Search Book")
+        print("5. My books")
+        print("0. Logout")
+        
